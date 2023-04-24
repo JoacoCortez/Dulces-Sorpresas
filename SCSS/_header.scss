@@ -1,0 +1,34 @@
+header{
+    #menu{
+        background-color: black;
+        opacity: 0.9;
+        nav{
+            height: 90px;
+            .logo{
+                width: 18%;
+                margin-left: 10%;
+            }
+            .navbar-toggler{
+                background-color: $Color_Oscuro;
+                .icon{
+                    background-color: white;
+                }
+            }
+            .menuNav{
+                font-family: $Tipografia_texto;
+                margin-left: 260px;
+                
+            }
+            .nav-item{
+                @include menu_item;
+                .nav-item:hover{
+                    background-color: $Color_Claro1;
+                    cursor: pointer;
+                }
+            } 
+            .nav-link{
+                @include menu_link;
+            }
+        }
+    }
+}

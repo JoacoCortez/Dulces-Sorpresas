@@ -1,0 +1,1038 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+.fondo-home {
+  background-image: url("/img/home.jpg");
+}
+
+.fondo-tienda {
+  background-image: url("/img/tienda.jpg");
+}
+
+.fondo-about {
+  background-image: url("/img/about.jpg");
+}
+
+.fondo-contacto {
+  background-image: url("/img/contacto.jpg");
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+header #menu {
+  background-color: black;
+  opacity: 0.9;
+}
+header #menu nav {
+  height: 90px;
+}
+header #menu nav .logo {
+  width: 18%;
+  margin-left: 10%;
+}
+header #menu nav .navbar-toggler {
+  background-color: #9E7777;
+}
+header #menu nav .navbar-toggler .icon {
+  background-color: white;
+}
+header #menu nav .menuNav {
+  font-family: "Poppins", sans-serif;
+  margin-left: 260px;
+}
+header #menu nav .nav-item {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 18px;
+}
+header #menu nav .nav-item .nav-item:hover {
+  background-color: #F5E8C7;
+  cursor: pointer;
+}
+header #menu nav .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #9E7777;
+  transition: all 0.3s ease;
+}
+
+.main_home .fondo_principal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../img/dsB_2.jpg");
+}
+.main_home .fondo_principal .centrados {
+  font-family: "Tangerine", cursive;
+  font-size: 100px;
+  color: #DEBA9D;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.main_home .fondo_principal h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #9E7777;
+  text-align: center;
+}
+.main_home section .descripcion {
+  font-family: "Poppins", sans-serif;
+  color: #9E7777;
+  font-size: 20px;
+  line-height: 2;
+  margin: 2rem 10%;
+}
+.main_home .background_cards h3 {
+  font-family: "Tangerine", cursive;
+  font-size: 100px;
+  color: #DEBA9D;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 80px;
+}
+.main_home .background_cards .containerCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  padding: 2%;
+  margin: 30px 13% 30px 13%;
+}
+.main_home .background_cards .card {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 275px;
+  height: 500px;
+  margin: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main_home .background_cards .card img {
+  max-height: 278px;
+  object-fit: cover;
+}
+.main_home .background_cards .card .card-body {
+  color: #9E7777;
+  font-family: "Poppins", sans-serif;
+}
+.main_home .background_cards .card .card-body .btn {
+  color: white;
+  background-color: #9E7777;
+}
+.main_home .background_cards .card .card-body .btn:hover {
+  color: #F5E8C7;
+}
+.main_home .objetivos {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 13% 30px 13%;
+}
+.main_home .objetivos .cards_objetivos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 35%;
+  align-items: center;
+}
+.main_home .objetivos .cards_objetivos .icon_container {
+  display: inline-block;
+  align-items: center;
+  background-color: #F5E8C7;
+  color: white;
+  font-size: 50px;
+  border-radius: 80%;
+  padding: 40px 30px 40px 50px;
+  width: 150px;
+  margin: 30px 13% 30px 13%;
+  z-index: 1;
+  transition: background-color 0.2s ease;
+}
+.main_home .objetivos .cards_objetivos .icon_container .icon_container:hover {
+  background-color: yellow;
+}
+.main_home .objetivos .cards_objetivos h3 {
+  display: block;
+  color: #9E7777;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.main_home .objetivos .cards_objetivos .parrafos {
+  font-family: "Poppins", sans-serif;
+  color: #9E7777;
+  font-size: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.main_tienda .fondo_tienda {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/Coffe.jpeg");
+}
+.main_tienda .fondo_tienda .centrados {
+  font-family: "Tangerine", cursive;
+  font-size: 100px;
+  color: #DEBA9D;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.main_tienda .fondo_tienda h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #9E7777;
+  text-align: center;
+}
+.main_tienda .transition_expand {
+  font-family: "Tangerine", cursive;
+  color: #DEBA9D;
+  font-size: 80px;
+  padding: 15px;
+  transition: all 2s ease;
+}
+.main_tienda .transition_expand:hover {
+  font-size: 120px;
+}
+.main_tienda .containerCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  padding: 2%;
+  margin: 30px 13% 30px 13%;
+}
+.main_tienda .containerCards .card {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 275px;
+  height: 500px;
+  margin: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main_tienda .containerCards .card img {
+  max-height: 278px;
+  object-fit: cover;
+}
+.main_tienda .containerCards .card .card-body {
+  color: #9E7777;
+  font-family: "Poppins", sans-serif;
+}
+.main_tienda .containerCards .card .card-body .btn {
+  color: white;
+  background-color: #9E7777;
+}
+.main_tienda .containerCards .card .card-body .btn:hover {
+  color: #F5E8C7;
+}
+.main_tienda h2 {
+  font-family: "Tangerine", cursive;
+  font-size: 5rem;
+  text-align: center;
+  color: #DEBA9D;
+}
+.main_tienda .envios {
+  display: inline-block;
+  width: 100%;
+}
+.main_tienda .envios h4 {
+  font-family: "Poppins", sans-serif;
+  color: #9E7777;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0%;
+  flex: 1;
+}
+.main_tienda .envios .parrafo_envios {
+  font-family: "Poppins", sans-serif;
+  color: #9E7777;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 13% 35px 13%;
+}
+.main_tienda .envios .mapa {
+  margin: 0 25%;
+}
+
+.quienes_somos .fondo_about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/dsA_2.jpg");
+}
+.quienes_somos .fondo_about .centrados {
+  font-family: "Tangerine", cursive;
+  font-size: 100px;
+  color: #DEBA9D;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.quienes_somos .fondo_about h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #9E7777;
+  text-align: center;
+}
+.quienes_somos .presentacion p {
+  margin: 30px 13% 30px 13%;
+  font-family: "Poppins", sans-serif;
+  color: #9E7777;
+  font-size: 20px;
+  line-height: 2;
+}
+.quienes_somos .perfil {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+.quienes_somos .perfil img {
+  width: 40%;
+  margin-left: 13%;
+}
+.quienes_somos .perfil p {
+  width: 30%;
+  padding-left: 5rem;
+  line-height: 2.2;
+  color: #9E7777;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.quienes_somos .muestra {
+  margin-top: 7%;
+  width: 100%;
+  height: 70vh;
+}
+.quienes_somos .muestra iframe {
+  width: 100%;
+  height: 70vh;
+}
+
+.main_contacto .fondo_contacto {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/breakfast.jpg");
+}
+.main_contacto p {
+  font-family: "Poppins", sans-serif;
+  color: #9E7777;
+  font-size: 20px;
+}
+.main_contacto .transition_expand {
+  font-family: "Tangerine", cursive;
+  color: #DEBA9D;
+  font-size: 80px;
+  padding: 15px;
+  transition: all 2s ease;
+  margin-left: 12%;
+}
+.main_contacto .transition_expand:hover {
+  font-size: 120px;
+}
+.main_contacto .contacto {
+  width: 100%;
+}
+.main_contacto .contacto fieldset {
+  width: 80%;
+  margin: 30px 13% 30px 13%;
+  font-family: "Poppins", sans-serif;
+  color: #9E7777;
+  border: 1px groove #9E7777;
+}
+.main_contacto .contacto .formulario {
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+}
+footer nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer nav .mapa_footer {
+  list-style-type: none;
+  margin: 35px 0 0 18%;
+}
+footer nav .mapa_footer li {
+  padding-bottom: 10%;
+}
+footer nav .mapa_footer li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #9E7777;
+}
+
+@media only screen and (max-width: 1024px) {
+  header #menu nav {
+    max-height: 70px;
+  }
+  header #menu nav .logo {
+    width: 30vh;
+    margin: 0%;
+  }
+  header #menu nav .menuNav {
+    margin: 0;
+  }
+  header #menu nav .nav-item {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 18px;
+  }
+  header #menu nav .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #9E7777;
+    transition: all 0.3s ease;
+  }
+  .main_home .fondo_principal {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/dsB_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-position: center;
+  }
+  .main_home .fondo_principal .centrados {
+    font-size: 70px;
+    margin: 0;
+  }
+  .main_home .fondo_principal h6 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .main_home section .descripcion {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    margin: 5%;
+  }
+  .main_home .background_cards h3 {
+    font-size: 50px;
+  }
+  .main_home .background_cards .containerCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 20% auto;
+    padding: 2%;
+    margin: 15px;
+  }
+  .main_home .background_cards .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 80%;
+    width: 80%;
+    margin: 2%;
+  }
+  .main_home .objetivos {
+    margin-bottom: 5%;
+    flex-direction: column;
+  }
+  .main_home .objetivos .cards_objetivos {
+    width: 100%;
+    justify-content: center;
+  }
+  .main_home .objetivos .cards_objetivos h3 {
+    font-size: 20px;
+  }
+  .main_home .objetivos .cards_objetivos .parrafos {
+    margin: 0;
+    font-size: 16px;
+  }
+  .main_tienda .fondo_tienda .centrados {
+    font-size: 70px;
+    margin: 0;
+  }
+  .main_tienda .fondo_tienda h6 {
+    font-size: 25px;
+  }
+  .main_tienda .transition_expand {
+    font-size: 60px;
+    margin-left: 7%;
+    transition: all 2s ease;
+  }
+  .main_tienda .transition_expand:hover {
+    font-size: 44px;
+  }
+  .main_tienda .containerCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 20% auto;
+    padding: 2%;
+    margin: 20px;
+  }
+  .main_tienda .containerCards .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 80%;
+    width: 80%;
+    margin: 2%;
+    border-style: solid 1px black;
+  }
+  .main_tienda .envios h4 {
+    font-size: 22px;
+  }
+  .main_tienda .envios .parrafo_envios {
+    margin-left: 7%;
+    font-size: 18px;
+  }
+  .main_tienda .envios .mapa {
+    margin: 5% 10%;
+    max-width: 800px;
+  }
+  .quienes_somos .fondo_about .centrados {
+    font-size: 70px;
+    margin: 0;
+  }
+  .quienes_somos .fondo_about h6 {
+    font-size: 20px;
+  }
+  .quienes_somos .presentacion p {
+    margin-left: 7%;
+    font-size: 18px;
+  }
+  .quienes_somos .perfil img {
+    margin-left: 7%;
+  }
+  .quienes_somos .perfil p {
+    font-size: 18px;
+    padding-left: 30px;
+  }
+  .main_contacto .fondo_contacto .centrados {
+    font-size: 70px;
+  }
+  .main_contacto .fondo_contacto h6 {
+    font-size: 20px;
+  }
+  .main_contacto p {
+    font-size: 18px;
+    margin: 0%;
+  }
+  .main_contacto .transition_expand {
+    font-size: 32px;
+    margin-left: 7%;
+    transition: all 2s ease;
+  }
+  .main_contacto .transition_expand:hover {
+    font-size: 36px;
+  }
+  .main_contacto .contacto fieldset {
+    width: 80%;
+    margin-left: 7%;
+    border-width: 2px;
+    border-style: groove;
+    border-color: black;
+    border-image: initial;
+  }
+  .main_contacto .contacto .formulario {
+    padding: 20px;
+  }
+  footer nav .mapa_footer li a {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header #menu {
+    max-height: 15vh;
+  }
+  header #menu nav {
+    height: 15vh;
+    padding: 0;
+  }
+  header #menu nav .container-fluid {
+    height: auto;
+  }
+  header #menu nav .container-fluid .logo {
+    max-height: 80px;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  header #menu nav .container-fluid .navbar-toggler {
+    width: auto;
+    margin: 2px 50px 20px 5px;
+  }
+  header #menu nav .container-fluid .menuNav {
+    font-size: 14px;
+    margin: 0;
+    background-color: #DEBA9D;
+  }
+  header #menu nav .container-fluid .nav-item {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+  }
+  header #menu nav .container-fluid .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    padding-right: 20px;
+    transition: all 0.3s ease;
+  }
+  .main_home .fondo_principal {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/dsB_2.jpg");
+    background-repeat: no-repeat;
+  }
+  .main_home .fondo_principal .centrados {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .main_home .fondo_principal h6 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .main_home section .descripcion {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: #9E7777;
+    text-align: center;
+  }
+  .main_home .background_cards h3 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main_home .background_cards .containerCards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 2%;
+    justify-content: center;
+  }
+  .main_home .background_cards .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    margin: 2%;
+  }
+  .main_home .objetivos {
+    margin: 0;
+    flex-direction: column;
+  }
+  .main_home .objetivos .cards_objetivos {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .main_home .objetivos .cards_objetivos h3 {
+    font-size: 20px;
+  }
+  .main_home .objetivos .cards_objetivos .parrafos {
+    margin: 0;
+    font-size: 16px;
+  }
+  .main_tienda .fondo_tienda {
+    background-position: 30% 50%;
+  }
+  .main_tienda .fondo_tienda .centrados {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 6%;
+  }
+  .main_tienda .fondo_tienda h6 {
+    font-size: 20px;
+  }
+  .main_tienda .transition_expand {
+    font-size: 42px;
+    margin-left: 7%;
+    transition: all 2s ease;
+  }
+  .main_tienda .transition_expand:hover {
+    font-size: 44px;
+  }
+  .main_tienda .containerCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20% auto;
+    padding: 2%;
+    margin: 20px;
+  }
+  .main_tienda .containerCards .card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 80%;
+    margin: 2%;
+    border-style: solid 1px black;
+  }
+  .main_tienda h2 {
+    font-size: 70px;
+  }
+  .main_tienda .envios h4 {
+    font-size: 16px;
+    margin: 0;
+  }
+  .main_tienda .envios .parrafo_envios {
+    margin-bottom: 8%;
+    font-size: 13px;
+  }
+  .main_tienda .envios .mapa {
+    margin: 0;
+    max-width: 100%;
+  }
+  .quienes_somos .fondo_about {
+    background-position: right;
+  }
+  .quienes_somos .fondo_about .centrados {
+    font-size: 60px;
+  }
+  .quienes_somos .fondo_about h6 {
+    font-size: 20px;
+  }
+  .quienes_somos .presentacion p {
+    margin-top: 20px;
+    font-size: 13px;
+    word-spacing: 5px;
+  }
+  .quienes_somos .perfil img {
+    margin-right: 20px;
+  }
+  .quienes_somos .perfil p {
+    width: 100%;
+    padding: 0%;
+    font-size: 13px;
+  }
+  .quienes_somos .muestra iframe {
+    height: 80vh;
+  }
+  .main_contacto .fondo_contacto .centrados {
+    font-size: 60px;
+  }
+  .main_contacto .fondo_contacto h6 {
+    font-size: 20px;
+  }
+  .main_contacto p {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  .main_contacto .transition_expand {
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    transition: all 2s ease;
+  }
+  .main_contacto .transition_expand:hover {
+    font-size: 36px;
+  }
+  .main_contacto .contacto fieldset {
+    width: 100%;
+    margin: 0%;
+    border-width: 1px;
+    border-style: groove;
+    border-color: black;
+    border-image: initial;
+  }
+  .main_contacto .contacto fieldset textarea {
+    width: 90%;
+  }
+  .main_contacto .contacto .formulario {
+    padding: 10px;
+  }
+  footer {
+    margin-top: 30px;
+  }
+  footer nav {
+    align-items: flex-end;
+    justify-content: center;
+  }
+  footer nav .mapa_footer {
+    margin: 0%;
+  }
+  footer nav .mapa_footer li a {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  header #menu {
+    max-height: 15vh;
+  }
+  header #menu nav {
+    height: 15vh;
+    padding: 0;
+  }
+  header #menu nav .container-fluid {
+    height: auto;
+  }
+  header #menu nav .container-fluid .logo {
+    max-height: 80px;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  header #menu nav .container-fluid .navbar-toggler {
+    width: auto;
+    margin: 2px 50px 20px 5px;
+  }
+  header #menu nav .container-fluid .menuNav {
+    font-size: 14px;
+    margin: 0;
+    background-color: #DEBA9D;
+  }
+  header #menu nav .container-fluid .nav-item {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+  }
+  header #menu nav .container-fluid .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    padding-right: 20px;
+    transition: all 0.3s ease;
+  }
+  .main_home .fondo_principal {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/dsB_2.jpg");
+    background-repeat: no-repeat;
+  }
+  .main_home .fondo_principal .centrados {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .main_home .fondo_principal h6 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .main_home section .descripcion {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: #9E7777;
+    text-align: center;
+  }
+  .main_home .background_cards h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main_home .background_cards .containerCards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 2%;
+    justify-content: center;
+  }
+  .main_home .background_cards .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    margin: 2%;
+  }
+  .main_home .objetivos {
+    margin: 0;
+    flex-direction: column;
+  }
+  .main_home .objetivos .cards_objetivos {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .main_home .objetivos .cards_objetivos h3 {
+    font-size: 20px;
+  }
+  .main_home .objetivos .cards_objetivos .parrafos {
+    margin: 0;
+    font-size: 16px;
+  }
+  .main_tienda .fondo_tienda {
+    background-position: 30% 50%;
+  }
+  .main_tienda .fondo_tienda .centrados {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 6%;
+  }
+  .main_tienda .fondo_tienda h6 {
+    font-size: 20px;
+  }
+  .main_tienda .transition_expand {
+    font-size: 42px;
+    margin-left: 7%;
+    transition: all 2s ease;
+  }
+  .main_tienda .transition_expand:hover {
+    font-size: 44px;
+  }
+  .main_tienda .containerCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20% auto;
+    padding: 2%;
+    margin: 20px;
+  }
+  .main_tienda .containerCards .card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 80%;
+    margin: 2%;
+    border-style: solid 1px black;
+  }
+  .main_tienda h2 {
+    font-size: 70px;
+  }
+  .main_tienda .envios h4 {
+    font-size: 16px;
+    margin: 0;
+  }
+  .main_tienda .envios .parrafo_envios {
+    margin-bottom: 8%;
+    font-size: 13px;
+  }
+  .main_tienda .envios .mapa {
+    margin: 0;
+    max-width: 100%;
+  }
+  .quienes_somos .fondo_about {
+    background-position: right;
+  }
+  .quienes_somos .fondo_about .centrados {
+    font-size: 60px;
+  }
+  .quienes_somos .fondo_about h6 {
+    font-size: 20px;
+  }
+  .quienes_somos .presentacion p {
+    margin: 10% 3%;
+    font-size: 0.8rem;
+  }
+  .quienes_somos .perfil img {
+    margin-left: 2%;
+  }
+  .quienes_somos .perfil p {
+    width: 100%;
+    padding: 0%;
+    font-size: 0.8rem;
+  }
+  .quienes_somos .muestra iframe {
+    height: 80vh;
+  }
+  .main_contacto .fondo_contacto .centrados {
+    font-size: 60px;
+  }
+  .main_contacto .fondo_contacto h6 {
+    font-size: 20px;
+  }
+  .main_contacto p {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  .main_contacto .transition_expand {
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    transition: all 2s ease;
+  }
+  .main_contacto .transition_expand:hover {
+    font-size: 36px;
+  }
+  .main_contacto .contacto fieldset {
+    width: 100%;
+    margin: 0%;
+    border-width: 1px;
+    border-style: groove;
+    border-color: black;
+    border-image: initial;
+  }
+  .main_contacto .contacto fieldset textarea {
+    width: 90%;
+  }
+  .main_contacto .contacto .formulario {
+    padding: 10px;
+  }
+  footer {
+    margin-top: 30px;
+  }
+  footer nav {
+    align-items: flex-end;
+  }
+  footer nav .mapa_footer {
+    margin: 0%;
+  }
+  footer nav .mapa_footer li a {
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

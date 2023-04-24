@@ -1,0 +1,55 @@
+.quienes_somos{
+    .fondo_about{
+        @include slider_principal;
+        background-image: url('../img/dsA_2.jpg');
+        .centrados{
+            @include centrados;
+        }
+        h6{
+            font-family: $Tipografia_texto;
+            font-size: 30px;
+            font-weight: bold;
+            color: $Color_Oscuro;
+            text-align: center;
+            
+        }
+    }
+    .presentacion{
+        p{
+            margin: $Margin;
+            font-family: $Tipografia_texto;
+            color: $Color_Oscuro;
+            font-size: 20px;
+            line-height: 2;
+        }
+    }
+    .perfil{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10%;
+        
+        img{
+            width: 40%;
+            margin-left: 13%;
+            
+        }
+        p{
+            width: 30%;
+            padding-left: 5rem;
+            line-height: 2.2;
+            color: $Color_Oscuro;
+            font-family: $Tipografia_texto;
+            font-size: 20px;
+        }
+    }
+    .muestra{
+        margin-top: 7%;
+        width: 100%;
+        height: 70vh;
+        iframe{
+            width: 100%;
+            height: 70vh;
+        }
+    }
+
+}

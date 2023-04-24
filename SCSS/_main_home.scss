@@ -1,0 +1,87 @@
+.main_home{
+    .fondo_principal{
+        @include slider_principal;
+        height: 100vh;
+        background-image: url('../img/dsB_2.jpg');
+        .centrados{
+            @include centrados;
+        }
+        h6{
+            font-family: $Tipografia_texto;
+            font-size: 30px;
+            font-weight: bold;
+            color: $Color_Oscuro;
+            text-align: center;
+            
+        }
+    }
+    section{
+        .descripcion{
+            @include parrafos;
+            line-height: 2;
+            margin: 2rem 10%;
+        }
+    }
+    .background_cards{
+        h3{
+            @include centrados;
+            font-size: 80px;
+            
+        }
+        .containerCards{
+            @include card_container;
+        }
+        .card{
+           @include card;
+            img{
+                max-height: 278px;
+                object-fit: cover;
+            }
+            .card-body{
+                color: $Color_Oscuro;
+                font-family: $Tipografia_texto;
+                .btn{
+                    color: white;
+                    background-color: $Color_Oscuro;
+                }
+                .btn:hover{
+                    color: $Color_Claro1;
+                }
+            }
+        }
+    }
+    .objetivos{
+        display: flex;
+        flex-direction: row;
+        margin: $Margin;
+        .cards_objetivos{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 35%;
+            align-items: center;
+            .icon_container{
+                @include icon;
+                transition: background-color .2s ease;
+                .icon_container:hover{
+                    background-color: yellow;
+                }
+            }
+            h3{
+                display: block;
+                color: $Color_Oscuro;
+                font-family: $Tipografia_texto;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .parrafos{
+                @include parrafos;
+                margin-top: 0;
+                text-align: center;
+            }
+        }
+    }
+       
+}  
+

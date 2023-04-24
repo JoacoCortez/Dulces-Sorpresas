@@ -1,0 +1,792 @@
+@media only screen and (max-width: 1024px){
+    header{
+        #menu{
+            nav{
+                max-height: 70px;
+                .logo{
+                    width: 30vh;
+                    margin:0%;
+                }
+                .menuNav{
+                    margin:0;
+                }
+                .nav-item{
+                    @include menu_item;
+
+                } 
+                .nav-link{
+                    @include menu_link;
+                }
+            }
+        }
+    }
+    .main_home{
+        .fondo_principal{
+            width: 100%;
+            height: 300px;
+            background-image: url('../img/dsB_2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-position: center;
+        
+        
+            .centrados{
+                font-size: 70px;
+                margin:0;
+            }
+            h6{
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+        section{
+            .descripcion{
+                font-family: $Tipografia_texto;
+                font-size: 18px;
+                margin: 5%;
+            }
+        }
+        .background_cards{
+            h3{
+                font-size: 50px;
+                
+            }
+            .containerCards{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                width: 20% auto;
+                padding: 2%;
+                margin: 15px;
+            }
+            .card{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: stretch;
+                height: 80%;
+                width: 80%;
+                margin: 2%;
+            }
+        }
+        .objetivos{
+            margin-bottom: 5%;
+            flex-direction: column;
+            .cards_objetivos{
+                width: 100%;
+                justify-content: center;
+                h3{
+                    font-size: 20px;
+                }
+                .parrafos{
+                    margin: 0;
+                    font-size: 16px;
+                }
+            }
+        }
+    }  
+    .main_tienda{
+        .fondo_tienda{
+
+        
+            .centrados{
+                font-size: 70px;
+                margin: 0;
+            }
+            h6{
+                font-size: 25px;
+
+            }
+        }
+        .transition_expand{
+            font-size: 60px;
+            margin-left: 7%;
+            transition: all 2s ease;
+        }
+        .transition_expand:hover{
+            font-size: 44px;
+        }
+        .containerCards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 20% auto;
+            padding: 2%;
+            margin: 20px;
+        
+            .card{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: stretch;
+                height: 80%;
+                width: 80%;
+                margin: 2%;
+                border-style: solid 1px black;
+            }
+        }
+        .envios{
+            h4{
+                font-size: 22px;
+                
+            }
+            .parrafo_envios{
+                margin-left: 7%;
+                font-size: 18px;
+            }
+            .mapa{
+                margin: 5% 10%;
+                max-width: 800px;
+            }
+            
+        }
+    }
+    .quienes_somos{
+        .fondo_about{
+            .centrados{
+                font-size: 70px;
+                margin: 0;
+            }
+            h6{
+                font-size: 20px;
+            }
+
+        }
+        .presentacion{
+            p{
+                margin-left: 7%;
+                font-size: 18px;
+            }
+
+        }
+        .perfil{
+            
+            img{
+                margin-left: 7%;
+            }
+            p{
+                font-size: 18px;
+                padding-left: 30px;
+            }
+
+        }
+        .muestra{
+            video{
+                
+            }
+    
+        }
+    
+    }
+    .main_contacto{
+        .fondo_contacto{
+            .centrados{
+                font-size: 70px;
+            }
+            h6{
+                font-size: 20px;
+            }
+
+
+        }
+        p{
+            font-size: 18px;
+            margin: 0%;
+        }
+        .transition_expand{
+            font-size: 32px;
+            margin-left: 7%;
+            transition: all 2s ease;
+        }
+        .transition_expand:hover{
+            font-size: 36px;
+        }
+        .contacto{
+            fieldset{
+                width: 80%;
+                margin-left: 7%;
+                border-width: 2px;
+                border-style: groove;
+                border-color: black;
+                border-image: initial;
+            }
+            .formulario{
+                padding:20px
+            }
+        }
+    }
+    footer{
+        nav{
+
+            .mapa_footer{
+                li{
+                    a{
+                        font-size: 18px;
+                    }
+                }
+
+            }
+        }
+    }      
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        #menu{
+            max-height: 15vh;
+            
+            nav{
+                height: 15vh;
+                padding: 0;
+                .container-fluid{
+                    height: auto;
+
+                    .logo{
+                        max-height: 80px;
+                        width: 150px;
+                        margin-bottom: 10px;
+                    }
+                    .navbar-toggler{
+                        width: auto;
+                        margin: 2px 50px 20px 5px;
+                        .icon{
+                        
+                        }
+                    }
+                    .menuNav{
+                        font-size: 14px;
+                        margin: 0;
+                        background-color: $Color_Claro2;
+                    }
+                    .nav-item{
+                        width: 30%;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding-right: 30px;
+
+                    } 
+                    .nav-link{
+                        font-family: $Tipografia_texto;
+                        font-size: 20px;
+                        padding-right: 20px;
+                        transition: all .3s ease;
+                    }
+
+                }   
+                    
+            }
+        }
+    }
+    .main_home{
+        .fondo_principal{
+            width: 100%;
+            height: 200px;
+            background-image: url('../img/dsB_2.jpg');
+            background-repeat: no-repeat;
+            
+        
+            .centrados{
+                font-size: 60px;
+                text-align: center;
+                margin-bottom: 0;
+            }
+            h6{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        section{
+            .descripcion{
+                font-family: $Tipografia_texto;
+                font-size: 13px;
+                color: $Color_Oscuro;
+                text-align: center;
+            }
+        }
+        .background_cards{
+            h3{
+                font-size: 42px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .containerCards{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                width: auto;
+                padding: 2%;
+                justify-content: center;
+            }
+            .card{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                height: 80%;
+                width: 100%;
+                margin: 2%;
+            }
+        }
+        .objetivos{
+            margin: 0;
+            flex-direction: column;
+            .cards_objetivos{
+                flex-direction: column;
+                width: 100%;
+                justify-content: center;
+                h3{
+                    font-size: 20px;
+                }
+                .parrafos{
+                    margin: 0;
+                    font-size: 16px;
+                }
+            }
+        }
+    }  
+    .main_tienda{
+        .fondo_tienda{
+           background-position: 30% 50%;
+            .centrados{
+                font-size: 60px;
+                text-align: center;
+                margin-bottom: 6%;
+            }
+            h6{
+                font-size: 20px;
+            }
+        }
+        .transition_expand{
+            font-size: 42px;
+            margin-left: 7%;
+            transition: all 2s ease;
+        }
+        .transition_expand:hover{
+            font-size: 44px;
+        }
+        .containerCards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 20% auto;
+            padding: 2%;
+            margin: 20px;
+        
+            .card{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                
+                height: 80%;
+                width: 80%;
+                margin: 2%;
+                border-style: solid 1px black;
+            }
+        }
+        
+        h2{
+            font-size: 70px;
+        }
+        .envios{
+            
+            h4{
+                font-size: 16px;
+                margin: 0;
+            }
+            .parrafo_envios{
+                margin-bottom: 8%;
+                font-size: 13px;
+            }
+            .mapa{
+                margin: 0;
+                max-width: 100%;
+            }
+            
+            
+        }
+    }
+    .quienes_somos{
+        .fondo_about{
+           background-position: right;
+            .centrados{
+                font-size: 60px;
+            }
+            h6{
+                font-size: 20px;
+            }
+
+        }
+        .presentacion{
+            p{
+                margin-top: 20px;
+                font-size: 13px;
+                word-spacing: 5px;
+            }
+
+        }
+        .perfil{
+            
+            img{
+                margin-right: 20px;
+            }
+            p{
+                width: 100%;
+                padding: 0%;
+                font-size: 13px;
+            }
+
+        }
+        .muestra{
+            
+            iframe{
+                height: 80vh;
+            }
+    
+        }
+    
+    }
+    .main_contacto{
+        .fondo_contacto{
+            
+            .centrados{
+                font-size: 60px;
+
+            }
+            h6{
+                font-size: 20px;
+            }
+
+
+        }
+        p{
+            margin-top: 20px;
+            font-size: 13px;
+        }
+        .transition_expand{
+            font-size: 60px;
+            margin-top:20px;
+            text-align: center;
+            transition: all 2s ease;
+        }
+        .transition_expand:hover{
+            font-size: 36px;
+        }
+        .contacto{
+            fieldset{
+                width: 100%;
+                margin: 0%;
+                border-width: 1px;
+                border-style: groove;
+                border-color: black;
+                border-image: initial;
+                textarea{
+                    width: 90%;
+                }
+            }
+            .formulario{
+                padding: 10px;
+            }
+        }
+    }
+    footer{
+        margin-top: 30px;
+        nav{
+            align-items: flex-end;
+            justify-content: center;
+            .mapa_footer{
+                margin: 0%;
+                li{
+                    a{
+                        font-size: 13px;
+                    }
+                }
+
+            }
+        }
+    }      
+}
+
+@media only screen and (max-width: 425px){
+    header{
+        #menu{
+            max-height: 15vh;
+            
+            nav{
+                height: 15vh;
+                padding: 0;
+                .container-fluid{
+                    height: auto;
+
+                    .logo{
+                        max-height: 80px;
+                        width: 150px;
+                        margin-bottom: 10px;
+                    }
+                    .navbar-toggler{
+                        width: auto;
+                        margin: 2px 50px 20px 5px;
+                        .icon{
+                        
+                        }
+                    }
+                    .menuNav{
+                        font-size: 14px;
+                        margin: 0;
+                        background-color: $Color_Claro2;
+                    }
+                    .nav-item{
+                        width: 30%;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding-right: 30px;
+
+                    } 
+                    .nav-link{
+                        font-family: $Tipografia_texto;
+                        font-size: 20px;
+                        padding-right: 20px;
+                        transition: all .3s ease;
+                    }
+
+                }   
+                    
+            }
+        }
+    }
+    .main_home{
+        .fondo_principal{
+            width: 100%;
+            height: 200px;
+            background-image: url('../img/dsB_2.jpg');
+            background-repeat: no-repeat;
+            
+        
+            .centrados{
+                font-size: 60px;
+                text-align: center;
+                margin-bottom: 0;
+            }
+            h6{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        section{
+            .descripcion{
+                font-family: $Tipografia_texto;
+                font-size: 13px;
+                color: $Color_Oscuro;
+                text-align: center;
+            }
+        }
+        .background_cards{
+            h3{
+                font-size: 3rem;
+               
+                text-align: center;
+
+               
+                margin-bottom: 20px;
+            }
+            .containerCards{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                width: auto;
+                padding: 2%;
+                justify-content: center;
+            }
+            .card{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                height: 80%;
+                width: 100%;
+                margin: 2%;
+            }
+        }
+        .objetivos{
+            margin: 0;
+            flex-direction: column;
+            .cards_objetivos{
+                flex-direction: column;
+                width: 100%;
+                justify-content: center;
+                h3{
+                    font-size: 20px;
+                }
+                .parrafos{
+                    margin: 0;
+                    font-size: 16px;
+                }
+            }
+        }
+    }  
+    .main_tienda{
+        .fondo_tienda{
+           background-position: 30% 50%;
+            .centrados{
+                font-size: 60px;
+                text-align: center;
+                margin-bottom: 6%;
+            }
+            h6{
+                font-size: 20px;
+            }
+        }
+        .transition_expand{
+            font-size: 42px;
+            margin-left: 7%;
+            transition: all 2s ease;
+        }
+        .transition_expand:hover{
+            font-size: 44px;
+        }
+        .containerCards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 20% auto;
+            padding: 2%;
+            margin: 20px;
+        
+            .card{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                
+                height: 80%;
+                width: 80%;
+                margin: 2%;
+                border-style: solid 1px black;
+            }
+        }
+        
+        h2{
+            font-size: 70px;
+        }
+        .envios{
+            
+            h4{
+                font-size: 16px;
+                margin: 0;
+            }
+            .parrafo_envios{
+                margin-bottom: 8%;
+                font-size: 13px;
+            }
+            .mapa{
+                margin: 0;
+                max-width: 100%;
+            }
+            
+            
+        }
+    }
+    .quienes_somos{
+        .fondo_about{
+           background-position: right;
+            .centrados{
+                font-size: 60px;
+            }
+            h6{
+                font-size: 20px;
+            }
+
+        }
+        .presentacion{
+            p{
+                margin: 10% 3%;
+                font-size: 0.8rem;
+                
+            }
+
+        }
+        .perfil{
+            
+            img{
+                margin-left: 2%;
+            }
+            p{
+                width: 100%;
+                padding: 0%;
+                font-size: 0.8rem;
+            }
+
+        }
+        .muestra{
+            
+            iframe{
+                height: 80vh;
+            }
+    
+        }
+    
+    }
+    .main_contacto{
+        .fondo_contacto{
+            
+            .centrados{
+                font-size: 60px;
+
+            }
+            h6{
+                font-size: 20px;
+            }
+
+
+        }
+        p{
+            margin-top: 20px;
+            font-size: 13px;
+        }
+        .transition_expand{
+            font-size: 60px;
+            margin-top:20px;
+            text-align: center;
+            transition: all 2s ease;
+        }
+        .transition_expand:hover{
+            font-size: 36px;
+        }
+        .contacto{
+            fieldset{
+                width: 100%;
+                margin: 0%;
+                border-width: 1px;
+                border-style: groove;
+                border-color: black;
+                border-image: initial;
+                textarea{
+                    width: 90%;
+                }
+            }
+            .formulario{
+                padding: 10px;
+            }
+        }
+    }
+    footer{
+        margin-top: 30px;
+        nav{
+            align-items: flex-end;
+            
+            .mapa_footer{
+                margin: 0%;
+                li{
+                    a{
+                        font-size: 13px;
+                    }
+                }
+
+            }
+        }
+    }      
+}

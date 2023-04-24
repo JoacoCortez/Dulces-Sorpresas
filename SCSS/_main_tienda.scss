@@ -1,0 +1,75 @@
+.main_tienda{
+    .fondo_tienda{
+        @include slider_principal;
+        background-image: url('../img/Coffe.jpeg');
+        
+        .centrados{
+           @include centrados;
+        }
+        h6{
+            font-family: $Tipografia_texto;
+            font-size: 30px;
+            font-weight: bold;
+            color: $Color_Oscuro;
+            text-align: center;
+            
+        }
+    }
+    .transition_expand{
+        @include expand;
+    }
+    .transition_expand:hover{
+        font-size: 120px;
+    }
+    .containerCards{
+        @include card_container;
+        .card{
+            @include card;
+            img{
+                max-height: 278px;
+                object-fit: cover;
+            }
+            .card-body{
+                color: $Color_Oscuro;
+                font-family: $Tipografia_texto;
+                
+
+                .btn{
+                    color: white;
+                    background-color: $Color_Oscuro;
+                }
+                .btn:hover{
+                    color: $Color_Claro1;
+                }
+            }
+        }
+    }
+    h2{
+        font-family: $Tipografia_titulos;
+        font-size: 5rem;
+        text-align: center;
+        color: $Color_Claro2;
+    }
+    .envios{
+        display: inline-block;
+        width: 100%;
+        
+        h4{
+            @include parrafos;
+            text-align: center;
+            font-weight: bold;
+            margin: 0%;
+            flex: 1;
+        }
+        .parrafo_envios{
+            @include parrafos;
+            text-align: center;
+            margin:0 13% 35px 13%;
+            
+        }
+        .mapa{
+            margin: 0 25%;
+        }
+        
+    }
+}
